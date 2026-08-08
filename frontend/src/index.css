@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  --ink: #14213d;
+  --ink-soft: #4a5578;
+  --paper: #f6f7fb;
+  --card: #ffffff;
+  --line: #e2e5f0;
+  --indigo: #3538cd;
+  --indigo-soft: #eef0fd;
+  --amber: #e08e0b;
+  --amber-soft: #fdf1dc;
+  --teal: #0f9d8f;
+  --teal-soft: #e3f6f3;
+  --danger: #c8483a;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(20,33,61,0.04), 0 8px 24px rgba(20,33,61,0.06);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  color: var(--ink);
+  margin: 0;
+}
+
+.mono { font-family: 'JetBrains Mono', monospace; letter-spacing: -0.02em; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
