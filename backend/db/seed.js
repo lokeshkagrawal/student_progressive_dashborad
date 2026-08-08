@@ -18,7 +18,7 @@ const passwordHash = bcrypt.hashSync('password123', 10);
 const insertUser = db.prepare(
   'INSERT INTO users (name, email, password_hash, role) VALUES (?, ?, ?, ?)'
 );
-const mentor = insertUser.run('Anita Mentor', 'mentor@example.com', passwordHash, 'mentor');
+const mentor = insertUser.run('Tanya Mentor', 'mentor@example.com', passwordHash, 'mentor');
 const student1 = insertUser.run('Ravi Kumar', 'ravi@example.com', passwordHash, 'student');
 const student2 = insertUser.run('Priya Sharma', 'priya@example.com', passwordHash, 'student');
 
