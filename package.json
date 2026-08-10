@@ -1,0 +1,23 @@
+{
+  "name": "student-dashboard",
+  "version": "1.0.0",
+  "description": "A full-stack web app that tracks student learning progress across courses, with role-based dashboards for students and mentors, time-series activity trends, and completion visualizations.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokeshkagrawal/student_progressive_dashborad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lokeshkagrawal/student_progressive_dashborad/issues"
+  },
+  "homepage": "https://github.com/lokeshkagrawal/student_progressive_dashborad#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
